@@ -1,75 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
-#menu{
-    background-color: rgba(38, 37, 41, 0.9);
-    width: 100%;
-    }
-
-li{
-    display: inline;
-    }
-
-#menu ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: inline-block;
-    }
-            
-#menu ul li a:hover{
-    background-color: teal;
-    }
-
-#conteudo{
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(7, 92, 92);
-    display: flex;
-    justify-content: space-between;
-    }
-
-.caixa{
-    height: 400px;
-    width: 400px;
-    background-color: white;
-    margin: auto;
-    text-align: center;
-    padding-top: 180px;
-    border-radius: 10px;
-    }
-.img-um{
-    background-image: url(../img/baixados.jpg);
-    background-position: center; /* centralizando a imagem nos dois
-    eixos */
-    background-size: cover; /* Cobrindo todo o fundo do elemento */
-    }
-.img-dois{
-    background-image: url(../img/baixados\ \(1\).jpg);
-    background-position: center; /* centralizando a imagem nos dois
-    eixos */
-    background-size: cover; /* Cobrindo todo o fundo do elemento */
+.car{
+    height: 500px;
 }
-.img-tres{
-    background-image: url(../img/baixados\ \(2\).jpg);
-    background-position: center; /* centralizando a imagem nos dois
-    eixos */
-    background-size: cover; /* Cobrindo todo o fundo do elemento */
+.fundo{
+    background-color: brown;
 }
-
-#conteudo div h2{
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    font-size: 30px;
-    }
-#conteudo div a{
-text-decoration: none;
-color: white;
-background-color: rgba(0, 0, 0, 0.7);
-display: block;
-font-size: 30px;
-}
-    
+.img{
+    height: 500px;
+  }
